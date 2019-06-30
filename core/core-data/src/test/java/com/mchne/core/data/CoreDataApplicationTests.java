@@ -1,4 +1,4 @@
-package com.mchne.coredata;
+package com.mchne.core.data;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.mchne.coredata.persistence.entity;
+package com.mchne.core.data.persistence.entity;
 
 import javax.persistence.*;
 

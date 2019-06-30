@@ -1,7 +1,7 @@
-package com.mchne.coredata.persistence.repository;
+package com.mchne.core.data.persistence.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.mchne.coredata.persistence.entity.User;
+import com.mchne.core.data.persistence.entity.User;
 import org.springframework.stereotype.Repository;
 
 @Repository
