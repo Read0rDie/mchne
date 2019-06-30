@@ -22,20 +22,7 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                        <configuration>
-                            <classifier>exec</classifier>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+
         </plugins>
     </build>
 
@@ -43,6 +30,7 @@
         <module>core-data</module>
         <module>core-services</module>
         <module>core-commons</module>
+        <module>core-web</module>
     </modules>
 
     <distributionManagement>
