@@ -31,6 +31,7 @@
         <module>core-services</module>
         <module>core-commons</module>
         <module>core-web</module>
+        <module>core-rest-api</module>
     </modules>
 
     <distributionManagement>
