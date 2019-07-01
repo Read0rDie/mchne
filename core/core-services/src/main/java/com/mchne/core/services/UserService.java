@@ -11,4 +11,12 @@ public interface UserService {
 
     List<User> list();
 
+    User getUser(Integer id);
+
+    User persistUser( User user);
+
+    void deleteUser(User user);
+
+    void upDateUser(User user);
+
 }

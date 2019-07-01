@@ -20,4 +20,24 @@ public class UserServiceImpl implements UserService {
         return userRepository.findAll();
     }
 
+    @Override
+    public User getUser(Integer id) {
+        return userRepository.findById(id).get();
+    }
+
+    @Override
+    public User persistUser(User user) {
+        return userRepository.save(user);
+    }
+
+    @Override
+    public void deleteUser(User user){
+        userRepository.delete(user);
+    }
+
+    @Override
+    public void upDateUser(User user){
+        userRepository.save(user);
+    }
+
 }
